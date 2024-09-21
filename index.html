@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
     <script src="https://www.youtube.com/iframe_api"></script>
@@ -32,8 +30,8 @@
 
                     <div class="header_info">
                         <div class="header_btn flex justify-between items-center ">
-                            <a href="javascript:;" class="btn1 btn py-4 px-6 block rounded-full border border-solid border-zinc-400 animate-none"> Log In </a>
-                            <a href="javascript:;" class=" btn2 btn py-4 px-6 block rounded-full border border-solid border-transparent animate-none"> Get Started </a>
+                            <a href="javascript:;" class="btn1 btn py-4 px-6  block rounded-full border border-solid border-zinc-400 animate-none"> Log In </a>
+                            <a href="javascript:;" class=" btn2 btn py-4 px-6  block rounded-full border border-solid border-transparent animate-none"> Get Started </a>
                         </div>
                     </div>
 
@@ -49,19 +47,21 @@
 
                 <div class="nav_holder">
 
+                    <div id="hamburger_menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+
+
 
                     <ul class="nav_menu flex items-center justify-center">
-                        <li> <a href=""> Features </a> </li>
+                        <li class="active"> <a href=""> Features </a> </li>
                         <li> <a href=""> Solutions </a> </li>
                         <li> <a href=""> Resources </a>  </li>
                         <li> <a href=""> Pricing </a> </li>
                     </ul>
 
-                    <div id="hamburger_menu">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                      </div>
 
                 </div>
 
@@ -87,46 +87,83 @@
                         <a href="" class="btn3 btn py-4 px-6 block border border-solid rounded-full border-transparent">Watch Video</a>
                     </div>
                 </div>
+                <div id="slider_wrapper">
 
-                <!-- <a href="javascript:;" class="btn1 btn py-4 px-6 rounded-full  border-solid border border-zinc-400 "> Log In </a> -->
-
-
-                <div class="bnr_boxes">
-
-                    <section>
-                        <span class="stars">
-                            <figure><img src="images/rate-img.png" alt="stars"></figure>
-                        </span>
-                        <h3>(45k Reviews)</h3>
-                        <figure class="card_logo">
-                            <img src="images/box-logo.png" alt="logo">
-                        </figure>
-                        <p class="py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium. </p>
-                    </section>
-
-                    <section>
-                        <span class="stars">
-                            <figure><img src="images/rate-img.png" alt="stars"></figure>
-                        </span>
-                        <h3>(45k Reviews)</h3>
-                        <figure class="card_logo">
-                            <img src="images/box-logo.png" alt="logo">
-                        </figure>
-                        <p class="py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium. </p>
-                    </section>
-
-                    <section>
-                        <span class="stars">
-                            <figure><img src="images/rate-img.png" alt="stars"></figure>
-                        </span>
-                        <h3>(45k Reviews)</h3>
-                        <figure class="card_logo">
-                            <img src="images/box-logo.png" alt="logo">
-                        </figure>
-                        <p class="py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium. </p>
-                    </section>
-
+                
+                    <button class="slider_arrow" id="prev">&#8249;</button>
+                    <button class="slider_arrow" id="next">&#8250;</button>
+    
+                    <div class="bnr_boxes" id="slider_boxes">
+                        <section class="slider">
+                            <span class="stars">
+                                <figure><img src="images/rate-img.png" alt="stars"></figure>
+                            </span>
+                            <h3>(45k Reviews)</h3>
+                            <figure class="card_logo">
+                                <img src="images/box-logo.png" alt="logo">
+                            </figure>
+                            <p class="py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium. </p>
+                        </section>
+    
+                        <section class="slider">
+                            <span class="stars">
+                                <figure><img src="images/rate-img.png" alt="stars"></figure>
+                            </span>
+                            <h3>(45k Reviews)</h3>
+                            <figure class="card_logo">
+                                <img src="images/box-logo.png" alt="logo">
+                            </figure>
+                            <p class="py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium. </p>
+                        </section>
+    
+                        <section class="slider">
+                            <span class="stars">
+                                <figure><img src="images/rate-img.png" alt="stars"></figure>
+                            </span>
+                            <h3>(45k Reviews)</h3>
+                            <figure class="card_logo">
+                                <img src="images/box-logo.png" alt="logo">
+                            </figure>
+                            <p class="py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium. </p>
+                        </section>
+    
+                        <section class="slider">
+                            <span class="stars">
+                                <figure><img src="images/rate-img.png" alt="stars"></figure>
+                            </span>
+                            <h3>(45k Reviews)</h3>
+                            <figure class="card_logo">
+                                <img src="images/box-logo.png" alt="logo">
+                            </figure>
+                            <p class="py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium. </p>
+                        </section>
+    
+                        <section class="slider">
+                            <span class="stars">
+                                <figure><img src="images/rate-img.png" alt="stars"></figure>
+                            </span>
+                            <h3>(45k Reviews)</h3>
+                            <figure class="card_logo">
+                                <img src="images/box-logo.png" alt="logo">
+                            </figure>
+                            <p class="py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium. </p>
+                        </section>
+    
+                        <section class="slider">
+                            <span class="stars">
+                                <figure><img src="images/rate-img.png" alt="stars"></figure>
+                            </span>
+                            <h3>(45k Reviews)</h3>
+                            <figure class="card_logo">
+                                <img src="images/box-logo.png" alt="logo">
+                            </figure>
+                            <p class="py-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium. </p>
+                        </section>
+    
+                    </div>
+    
                 </div>
+
 
             </div>
 
@@ -146,14 +183,13 @@
                   
             </div>
 
+
         </div>
     </div>
 </div>
 
 <script src="js/javascript.js"></script>
 <script src="js/tailwind.js"></script>
-
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
 
 </body>
